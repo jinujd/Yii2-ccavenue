@@ -6,6 +6,7 @@ How to configure
 ----------------
 1. Put the CCAvenueComponent.php file to /common/components.
 2. Add the component in main.php. Sample code in main.php is given below
+```
 <?php
 return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
@@ -23,10 +24,13 @@ return [
      ],  
 ];
 ?>
+```
 
 In the above code , configure the redirect and cancel actions appropriately.
 In the redirect action or cancel action, you can extract the received parameters using 
+```
 $params = Yii::$app->ccavenue->extractInfo();
+```
 In $params order status and mechant parameters will be available. 
 
 
