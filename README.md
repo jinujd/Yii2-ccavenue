@@ -4,8 +4,8 @@ By: Jinu Joseph Daniel, jinujosephdaniel@gmail.com, jinujosephdaniel@cocoalabs.i
 
 How to configure
 ----------------
-1. Put the CCAvenueComponent.php file to /common/components.
-2. Add the component in main.php. Sample code in main.php is given below
+1. Put the CCAvenueComponent.php file to``` /common/components```.
+2. Add the component in ``main.php```. Sample code in main.php is given below
 ```
 <?php
 return [
